@@ -1,0 +1,185 @@
+{
+    "calls": {
+        "AAC": {
+            "initialized": true,
+            "method": "get",
+            "name": "lat.lon to plus code ",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1670053842860x645985692722397200.plugin_api.AAC",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAC\":{\"caption\":\"plus code as data\",\"fields\":{\"_p_plus_code.global_code\":{\"ret_value\":\"text\",\"caption\":\"plus_code global_code\",\"sample_value\":\"7MJCP8GV+CQ\",\"path\":[\"plus_code\",\"global_code\"]},\"_p_plus_code.geometry.bounds.northeast.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds northeast lat\",\"sample_value\":22.72612500000001,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"northeast\",\"lat\"]},\"_p_plus_code.geometry.bounds.northeast.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds northeast lng\",\"sample_value\":88.34450000000004,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"northeast\",\"lng\"]},\"_p_plus_code.geometry.bounds.southwest.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds southwest lat\",\"sample_value\":22.726000000000013,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"southwest\",\"lat\"]},\"_p_plus_code.geometry.bounds.southwest.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds southwest lng\",\"sample_value\":88.34437500000001,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"southwest\",\"lng\"]},\"_p_plus_code.geometry.location.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry location lat\",\"sample_value\":22.726062500000012,\"path\":[\"plus_code\",\"geometry\",\"location\",\"lat\"]},\"_p_plus_code.geometry.location.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry location lng\",\"sample_value\":88.34443750000003,\"path\":[\"plus_code\",\"geometry\",\"location\",\"lng\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"OK\",\"path\":[\"status\"]}}}}",
+            "url": "https://plus.codes/api?address=[latitude],[longitude]",
+            "url_params": {
+                "AAF": {
+                    "doc": "latitude eg. 22.726067",
+                    "key": "latitude",
+                    "private": true,
+                    "value": "22.726067"
+                },
+                "AAG": {
+                    "doc": "longitude eg. 88.344426",
+                    "key": "longitude",
+                    "private": true,
+                    "value": "88.344426"
+                }
+            }
+        },
+        "AAH": {
+            "initialized": true,
+            "method": "get",
+            "name": "lat.lon to plus code ",
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1670053842860x645985692722397200.plugin_api.AAH",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAH\":{\"caption\":\"plus code as action\",\"fields\":{\"_p_plus_code.global_code\":{\"ret_value\":\"text\",\"caption\":\"plus_code global_code\",\"sample_value\":\"7MJCP8GV+CQ\",\"path\":[\"plus_code\",\"global_code\"]},\"_p_plus_code.geometry.bounds.northeast.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds northeast lat\",\"sample_value\":22.72612500000001,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"northeast\",\"lat\"]},\"_p_plus_code.geometry.bounds.northeast.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds northeast lng\",\"sample_value\":88.34450000000004,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"northeast\",\"lng\"]},\"_p_plus_code.geometry.bounds.southwest.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds southwest lat\",\"sample_value\":22.726000000000013,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"southwest\",\"lat\"]},\"_p_plus_code.geometry.bounds.southwest.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds southwest lng\",\"sample_value\":88.34437500000001,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"southwest\",\"lng\"]},\"_p_plus_code.geometry.location.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry location lat\",\"sample_value\":22.726062500000012,\"path\":[\"plus_code\",\"geometry\",\"location\",\"lat\"]},\"_p_plus_code.geometry.location.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry location lng\",\"sample_value\":88.34443750000003,\"path\":[\"plus_code\",\"geometry\",\"location\",\"lng\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"OK\",\"path\":[\"status\"]}}}}",
+            "url": "https://plus.codes/api?address=[latitude],[longitude]",
+            "url_params": {
+                "AAI": {
+                    "key": "latitude",
+                    "private": true,
+                    "value": "22.726067"
+                },
+                "AAJ": {
+                    "key": "longitude",
+                    "private": true,
+                    "value": "88.344426"
+                }
+            }
+        },
+        "AAK": {
+            "initialized": true,
+            "method": "get",
+            "name": "address to plus code",
+            "publish_as": "data",
+            "rank": 2,
+            "ret_value": "api.1670053842860x645985692722397200.plugin_api.AAK",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAK\":{\"caption\":\"address to plus code\",\"fields\":{\"_p_plus_code.global_code\":{\"ret_value\":\"text\",\"caption\":\"plus_code global_code\",\"sample_value\":\"7MJCP8FV+\",\"path\":[\"plus_code\",\"global_code\"]},\"_p_plus_code.geometry.bounds.northeast.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds northeast lat\",\"sample_value\":22.724999999999994,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"northeast\",\"lat\"]},\"_p_plus_code.geometry.bounds.northeast.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds northeast lng\",\"sample_value\":88.34500000000003,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"northeast\",\"lng\"]},\"_p_plus_code.geometry.bounds.southwest.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds southwest lat\",\"sample_value\":22.722499999999997,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"southwest\",\"lat\"]},\"_p_plus_code.geometry.bounds.southwest.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds southwest lng\",\"sample_value\":88.34250000000003,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"southwest\",\"lng\"]},\"_p_plus_code.geometry.location.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry location lat\",\"sample_value\":22.723749999999995,\"path\":[\"plus_code\",\"geometry\",\"location\",\"lat\"]},\"_p_plus_code.geometry.location.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry location lng\",\"sample_value\":88.34375000000003,\"path\":[\"plus_code\",\"geometry\",\"location\",\"lng\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"OK\",\"path\":[\"status\"]}}}}",
+            "url": "https://plus.codes/api?address=[address]&ekey=[key]",
+            "url_params": {
+                "AAP": {
+                    "doc": "API key with No Key restrictions. Enable only geocoding service",
+                    "key": "key",
+                    "private": true,
+                    "visibility": "secret"
+                },
+                "AAQ": {
+                    "key": "address",
+                    "private": true,
+                    "value": "Rishra"
+                }
+            }
+        },
+        "AAR": {
+            "initialized": true,
+            "method": "get",
+            "name": "address to plus code",
+            "publish_as": "action",
+            "rank": 3,
+            "ret_value": "api.1670053842860x645985692722397200.plugin_api.AAR",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAR\":{\"caption\":\"address to plus code\",\"fields\":{\"_p_plus_code.global_code\":{\"ret_value\":\"text\",\"caption\":\"plus_code global_code\",\"sample_value\":\"7MJCP8FV+\",\"path\":[\"plus_code\",\"global_code\"]},\"_p_plus_code.geometry.bounds.northeast.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds northeast lat\",\"sample_value\":22.724999999999994,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"northeast\",\"lat\"]},\"_p_plus_code.geometry.bounds.northeast.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds northeast lng\",\"sample_value\":88.34500000000003,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"northeast\",\"lng\"]},\"_p_plus_code.geometry.bounds.southwest.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds southwest lat\",\"sample_value\":22.722499999999997,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"southwest\",\"lat\"]},\"_p_plus_code.geometry.bounds.southwest.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds southwest lng\",\"sample_value\":88.34250000000003,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"southwest\",\"lng\"]},\"_p_plus_code.geometry.location.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry location lat\",\"sample_value\":22.723749999999995,\"path\":[\"plus_code\",\"geometry\",\"location\",\"lat\"]},\"_p_plus_code.geometry.location.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry location lng\",\"sample_value\":88.34375000000003,\"path\":[\"plus_code\",\"geometry\",\"location\",\"lng\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"OK\",\"path\":[\"status\"]}}}}",
+            "url": "https://plus.codes/api?address=[address]&ekey=[key]",
+            "url_params": {
+                "AAS": {
+                    "key": "address",
+                    "private": true,
+                    "value": "Rishra"
+                },
+                "AAT": {
+                    "doc": "API key with No Key restrictions. Enable only geocoding service",
+                    "key": "key",
+                    "private": true,
+                    "visibility": "secret"
+                }
+            }
+        },
+        "AAU": {
+            "initialized": true,
+            "method": "get",
+            "name": "lat.lon to plus code with local address",
+            "publish_as": "data",
+            "rank": 4,
+            "ret_value": "api.1670053842860x645985692722397200.plugin_api.AAU",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAU\":{\"caption\":\"lat.lon to plus code with local addres\",\"fields\":{\"_p_plus_code.global_code\":{\"ret_value\":\"text\",\"caption\":\"plus_code global_code\",\"sample_value\":\"7MJCP8GV+CQ\",\"path\":[\"plus_code\",\"global_code\"]},\"_p_plus_code.geometry.bounds.northeast.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds northeast lat\",\"sample_value\":22.72612500000001,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"northeast\",\"lat\"]},\"_p_plus_code.geometry.bounds.northeast.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds northeast lng\",\"sample_value\":88.34450000000004,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"northeast\",\"lng\"]},\"_p_plus_code.geometry.bounds.southwest.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds southwest lat\",\"sample_value\":22.726000000000013,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"southwest\",\"lat\"]},\"_p_plus_code.geometry.bounds.southwest.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds southwest lng\",\"sample_value\":88.34437500000001,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"southwest\",\"lng\"]},\"_p_plus_code.geometry.location.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry location lat\",\"sample_value\":22.726062500000012,\"path\":[\"plus_code\",\"geometry\",\"location\",\"lat\"]},\"_p_plus_code.geometry.location.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry location lng\",\"sample_value\":88.34443750000003,\"path\":[\"plus_code\",\"geometry\",\"location\",\"lng\"]},\"_p_plus_code.local_code\":{\"ret_value\":\"text\",\"caption\":\"plus_code local_code\",\"sample_value\":\"P8GV+CQ\",\"path\":[\"plus_code\",\"local_code\"]},\"_p_plus_code.locality.local_address\":{\"ret_value\":\"text\",\"caption\":\"plus_code locality local_address\",\"sample_value\":\"Rishra, Pandit Satghara, West Bengal, India\",\"path\":[\"plus_code\",\"locality\",\"local_address\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"OK\",\"path\":[\"status\"]}}}}",
+            "url": "https://plus.codes/api?address=[latitude],[longitude]&ekey=[key]",
+            "url_params": {
+                "AAV": {
+                    "key": "latitude",
+                    "private": true,
+                    "value": "22.726067"
+                },
+                "AAW": {
+                    "doc": "",
+                    "key": "longitude",
+                    "private": true,
+                    "value": "88.344426"
+                },
+                "AAX": {
+                    "doc": "API key with No Key restrictions. Enable only geocoding service",
+                    "key": "key",
+                    "private": true,
+                    "visibility": "secret"
+                }
+            }
+        },
+        "AAY": {
+            "initialized": true,
+            "method": "get",
+            "name": "lat.lon to plus code with local address",
+            "publish_as": "action",
+            "rank": 5,
+            "ret_value": "api.1670053842860x645985692722397200.plugin_api.AAY",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAY\":{\"caption\":\"lat.lon to plus code with local addres\",\"fields\":{\"_p_plus_code.global_code\":{\"ret_value\":\"text\",\"caption\":\"plus_code global_code\",\"sample_value\":\"7MJCP8GV+CQ\",\"path\":[\"plus_code\",\"global_code\"]},\"_p_plus_code.geometry.bounds.northeast.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds northeast lat\",\"sample_value\":22.72612500000001,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"northeast\",\"lat\"]},\"_p_plus_code.geometry.bounds.northeast.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds northeast lng\",\"sample_value\":88.34450000000004,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"northeast\",\"lng\"]},\"_p_plus_code.geometry.bounds.southwest.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds southwest lat\",\"sample_value\":22.726000000000013,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"southwest\",\"lat\"]},\"_p_plus_code.geometry.bounds.southwest.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds southwest lng\",\"sample_value\":88.34437500000001,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"southwest\",\"lng\"]},\"_p_plus_code.geometry.location.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry location lat\",\"sample_value\":22.726062500000012,\"path\":[\"plus_code\",\"geometry\",\"location\",\"lat\"]},\"_p_plus_code.geometry.location.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry location lng\",\"sample_value\":88.34443750000003,\"path\":[\"plus_code\",\"geometry\",\"location\",\"lng\"]},\"_p_plus_code.local_code\":{\"ret_value\":\"text\",\"caption\":\"plus_code local_code\",\"sample_value\":\"P8GV+CQ\",\"path\":[\"plus_code\",\"local_code\"]},\"_p_plus_code.locality.local_address\":{\"ret_value\":\"text\",\"caption\":\"plus_code locality local_address\",\"sample_value\":\"Rishra, Pandit Satghara, West Bengal, India\",\"path\":[\"plus_code\",\"locality\",\"local_address\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"OK\",\"path\":[\"status\"]}}}}",
+            "url": "https://plus.codes/api?address=[latitude],[longitude]&ekey=[key]",
+            "url_params": {
+                "AAZ": {
+                    "key": "latitude",
+                    "private": true,
+                    "value": "22.726067"
+                },
+                "AAa": {
+                    "key": "longitude",
+                    "private": true,
+                    "value": "88.344426"
+                },
+                "AAb": {
+                    "doc": "API key with No Key restrictions. Enable only geocoding service",
+                    "key": "key",
+                    "private": true,
+                    "value": "AIzaSyATGmTowXtGJ9YAD6GDm-8mxzziIo-DSj4"
+                }
+            }
+        },
+        "AAc": {
+            "doc_link": "",
+            "initialized": true,
+            "method": "get",
+            "name": "plus code to lat.long",
+            "publish_as": "data",
+            "rank": 6,
+            "ret_value": "api.1670053842860x645985692722397200.plugin_api.AAc",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.AAc\":{\"caption\":\"plus code to lat.long\",\"fields\":{\"_p_plus_code.global_code\":{\"ret_value\":\"text\",\"caption\":\"plus_code global_code\",\"sample_value\":\"9C3XGWH4+9M\",\"path\":[\"plus_code\",\"global_code\"]},\"_p_plus_code.geometry.bounds.northeast.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds northeast lat\",\"sample_value\":51.52850000000001,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"northeast\",\"lat\"]},\"_p_plus_code.geometry.bounds.northeast.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds northeast lng\",\"sample_value\":-0.09325000000001182,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"northeast\",\"lng\"]},\"_p_plus_code.geometry.bounds.southwest.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds southwest lat\",\"sample_value\":51.52837500000001,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"southwest\",\"lat\"]},\"_p_plus_code.geometry.bounds.southwest.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry bounds southwest lng\",\"sample_value\":-0.09337500000000887,\"path\":[\"plus_code\",\"geometry\",\"bounds\",\"southwest\",\"lng\"]},\"_p_plus_code.geometry.location.lat\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry location lat\",\"sample_value\":51.52843750000001,\"path\":[\"plus_code\",\"geometry\",\"location\",\"lat\"]},\"_p_plus_code.geometry.location.lng\":{\"ret_value\":\"number\",\"caption\":\"plus_code geometry location lng\",\"sample_value\":-0.09331250000001035,\"path\":[\"plus_code\",\"geometry\",\"location\",\"lng\"]},\"_p_plus_code.local_code\":{\"ret_value\":\"text\",\"caption\":\"plus_code local_code\",\"sample_value\":\"GWH4+9M\",\"path\":[\"plus_code\",\"local_code\"]},\"_p_plus_code.locality.local_address\":{\"ret_value\":\"text\",\"caption\":\"plus_code locality local_address\",\"sample_value\":\"London, UK\",\"path\":[\"plus_code\",\"locality\",\"local_address\"]},\"_p_status\":{\"ret_value\":\"text\",\"caption\":\"status\",\"sample_value\":\"OK\",\"path\":[\"status\"]}}}}",
+            "url": "https://plus.codes/api?address=[pluscode]&key=[key]",
+            "url_params": {
+                "AAf": {
+                    "doc": "convert \"+\" to %2b",
+                    "key": "pluscode",
+                    "private": true,
+                    "value": "MJCP8FV%2b"
+                },
+                "AAg": {
+                    "key": "key",
+                    "private": true,
+                    "visibility": "secret"
+                }
+            }
+        }
+    },
+    "human": "Plus code"
+}

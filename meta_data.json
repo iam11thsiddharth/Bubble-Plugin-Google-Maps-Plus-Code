@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "technical",
+        "2": "mobile",
+        "3": "data (things)",
+        "4": "location"
+    },
+    "description": "Simple, free to use, open-source digital addressing, for the entire world \n\nPlus Codes are like street addresses for people or places that don’t have one. Instead of addresses with street names and numbers, Plus Codes are based on latitude and longitude, and displayed as numbers and letters. With a Plus Code, people can receive deliveries, access emergency and social services, or just help other people find them.\n\nexample, the plus code for the address-- Netaji Subhash Chandra Bose International Airport Kolkata, West Bengal, India is MC3V+7W\n\nThis plus code is easily recognized in google maps",
+    "image": "//s3.amazonaws.com/appforest_uf/f1670053904584x126292837702560940/download%20%281%29.png",
+    "license": "open_source",
+    "link": "https://maps.google.com/pluscodes/",
+    "name": "Google Maps Plus Code",
+    "plugin_instructions": "U can use latitude and longitude to Plus code without API key. UNLIMITED FREE (best for tracking)\n------------------------------------------------------------------------------------\n\nIf U want address to Plus Code U need a API key\nIF U want latitude and longitude to Plus code with local address U need a API key\n\n\nObtaining A Google API Key\nTo search for addresses, return addresses, and return short codes and localities, the Plus Codes API uses the Google Maps Geocoding API. If you want to be able to:\n\nsearch by address,\nsearch by short codes with localities,\nor have short codes and localities included in responses\nyou must provide a Google API key in your request. To obtain a Google API key refer here.\n\nImportant:\n\nThe API key must have the Google Maps Geocoding API enabled\nThe API key must not have any restrictions (referrer, IP address). (This is because it is used to call the web service API, which does not allow restrictions on the key.)\nOnce you have your API key, you can specify it in requests using the key parameter"
+}
